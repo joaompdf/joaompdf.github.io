@@ -10,8 +10,6 @@
     <link rel="manifest" href="favicon_io/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <title>site do Jomar</title>
@@ -23,6 +21,7 @@
             font-family: 'Handjet', cursive;
             font-size: 72px;
             font-weight: 300;
+            
         }
         .texto{
             font-family: 'Handjet', cursive;
@@ -36,16 +35,61 @@
             border-color: white;
             margin-left: 30%;
             margin-right: 30%;
+            background-color: #101417;
         }
         body{
-            background-color: black;
+            background-color: #101417;
+            color: white;
+            background-image: url("—Pngtree—beautiful blue moon in the_2207268.jpg");
+            background-size: cover;
+        }.nav ul{
+            background-color: #2b373f;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+        .nav ul li{
+            float: left;
             
+        }
+        .nav ul li a{
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+
+        }.nav ul li a:hover:not(.active){
+            background-color: #253037;
+
+        }.active{
+            background-color: #36454f;
+        }
+        .inform{
+            position: fixed;
+            bottom: 0;
+            float: left;
+            font-size: smaller;
+            color: white;
+            font-weight: 200;
+        }a:visited{
+            color: gainsboro
+        }a:link{
+            color: white
         }
     </style>
 
 </head>
 <body>
+    <nav class="nav">
+        <ul>
+            <li><a class="active">Inicio</a></li>
+            <li><a>Ja--</a></li>
+            <li style="float: right;"><a>Sobre mim</a></li>
+        </ul>
+    </nav>
     <h1 class="titulo">Bem-vindo(a)!</h1>
     <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quos, distinctio ex maiores consectetur molestiae qui aliquid! Minus consequatur beatae a neque nostrum consectetur voluptatibus nam earum, excepturi corporis reiciendis.Provident tempore illo nobis distinctio ducimus accusantium, quia aut sapiente corrupti voluptas! Dignissimos neque consequatur porro quis minus blanditiis nisi in, cum assumenda, incidunt voluptatibus! Cupiditate neque est quibusdam quis.</p>
+    <h1 class="inform">fotos de fundo grátis de <a href="https://pt.pngtree.com/freebackground/beautiful-blue-moon-in-the-night-sky_2207268.html?sol=downref&id=bef">pngtree<a></h1>
 </body>
 </html>
