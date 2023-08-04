@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon_io/favicon-16x16.png">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 5px;
+            background-color: #36454f;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .wave {
+            width: 104%;
+            height: 210%;
+            position: absolute;
+            top: -25%;
+            left: 50%;
+            margin-left: -52%;
+            margin-top: -50%;
+            border-radius: 35%;
+            background-color: #101417;
+            animation: wave 15s infinite linear;
+            z-index: -1;
+        }
+
+        @keyframes wave {
+            from {
+                transform: rotate(0deg);
+            }
+
+            from {
+                transform: rotate(360deg);
+            }
+        }
+        .cent {
+            width: 99%;
+            margin: 0;
+            position: absolute;
+            top: 45%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }.destaque {
+            color: #36753B;
+            font-size: 100px;
+            font-weight: 300;
+            text-align: center;
+            font-family: 'Handjet', cursive;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper"><div class="wave"></div></div>
+    <div class="cent">
+        <h1 class="destaque">Em Construção</h1>
+    </div>
+</body>
+</html>
