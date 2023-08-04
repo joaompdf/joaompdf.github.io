@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon_io/favicon-16x16.png">
     <title>Document</title>
     <style>
+        body {
+
+            background-color: #101417;
+            color: white;
+
+        }
+
         .wrapper {
             width: 100%;
             height: 100%;
@@ -50,6 +58,7 @@
                 transform: rotate(360deg);
             }
         }
+
         .cent {
             width: 99%;
             margin: 0;
@@ -57,7 +66,9 @@
             top: 45%;
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-        }.destaque {
+        }
+
+        .destaque {
             color: #36753B;
             font-size: 100px;
             font-weight: 300;
@@ -66,13 +77,63 @@
             padding: 0;
             margin: 0;
         }
+
+        .nav ul {
+            background-color: #2b373f;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .nav ul li {
+            float: left;
+
+        }
+
+        .nav ul li a {
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        .nav ul li a:hover:not(.active) {
+            background-color: #253037;
+
+        }
+
+        .active {
+            background-color: #36454f;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a:link {
+            color: white
+        }
     </style>
 
 </head>
+
 <body>
-    <div class="wrapper"><div class="wave"></div></div>
+    <div class="wrapper">
+        <div class="wave"></div>
+    </div>
+    <nav class="nav">
+        <ul>
+            <li><a href="../inicio">Inicio</a></li>
+            <li><a class="active">Ja--</a></li>
+            <li style="float: right;"><a>Sobre mim</a></li>
+        </ul>
+    </nav>
     <div class="cent">
         <h1 class="destaque">Em Construção</h1>
     </div>
 </body>
+
 </html>
