@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentação</title>
+    <style>
+        body {
+            background-color: #101417;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }.nav{
+            position: relative;
+            z-index: 2;
+        }.nav ul {
+            background-color: #2b373f;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            z-index: 1;
+        }html{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav ul li {
+            float: left;
+
+        }
+
+        .nav ul li a {
+            display: block;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        .nav ul li a:hover:not(.active) {
+            background-color: #253037;
+
+        }
+
+        .active {
+            background-color: #36454f;
+        }
+
+        a:visited {
+            color: gainsboro
+        }
+
+        a:link {
+            color: white
+        }.body2{
+            background-color: #262f36;
+            position:relative;
+            padding: 0;
+            margin: 0;
+            width: 15vw;
+            height: 100vh;
+            top: 46px;
+            left: 0;
+            right: 0;
+            border: 0;
+            overflow:auto;
+            text-align: center;
+            
+        }.wrapper{
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            
+        }.active2{
+            border: 2px double gray;
+        }.body2 a{
+            text-decoration: none;
+            width: calc(15vw - 4px);
+            padding: 0;
+            margin: 0;
+            height: 5vh;
+            background-color: #1a2126;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }.body2 a:not(.active2){
+            border: 2px double #262f36;
+        }.wrapper2{
+            background-color: #101417;
+            position:relative;
+            padding: 0;
+            margin: 0;
+            width: 85vw;
+            height: calc(100vh - 46px);
+            top: 0;
+            left: 15vw;
+            border: 0;
+            overflow:auto;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="https://joaompdf.github.io/inicio/">Inicio</a></li>
+            <li><a class="active">Ja--</a></li>
+            <li style="float: right;"><a>Sobre mim</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div class="body2">
+            <a href="MainDoc.html"><div class="centert">Main</div></a>
+            <a href="VariablesDoc.html"><div class="centert">Variables</div></a>
+            <a href="compDoc.html"><div class="centert">Testes Logicos</div></a>
+            <a href="operDoc.html"><div class="centert">Operacoes</div></a>
+            <a class="active2"><div class="centert">Teste de Decisão(if)</div></a>
+            <a href="insDoc.html"><div class="centert">Ins</div></a>
+        </div>
+    </div>
+    <div class="wrapper2">
+        <h1 style="text-align: center;">3</h1>
+    </div>
+    
+</body>
+</html>
