@@ -1,2 +1,2 @@
 [object Promise]jj
- teste coiso
+ teste coisoadicione esta frase
