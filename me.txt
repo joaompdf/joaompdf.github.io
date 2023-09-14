@@ -1,2 +1,3 @@
 [object Promise]jj
  teste coisoadicione esta frasea
+eu to atrasada pro onibus
